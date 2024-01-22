@@ -1,0 +1,17 @@
+[user]
+	name = Ian Schmitz
+	email = ianschmitz@gmail.com
+[init]
+	defaultBranch = main
+[remote "origin"]
+	prune = true
+[core]
+	editor = nvim 
+[pull]
+	ff = only
+[advice]
+	diverging = false
+[merge]
+    tool = vimdiff
+[mergetool "vimdiff"]
+    path = nvim

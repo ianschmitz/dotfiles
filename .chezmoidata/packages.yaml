@@ -1,0 +1,16 @@
+packages:
+  darwin:
+    brews:
+      - "bat"
+      - "btop"
+      - "eza"
+      - "fzf"
+      - "git"
+      - "lazygit"
+      - "neovim"
+      - "pipx"
+      - "ripgrep"
+      - "starship"
+      - "zsh-autosuggestions"
+      - "zsh-syntax-highlighting"
+    casks:
