@@ -1,5 +1,9 @@
 export EDITOR=nvim
 
+alias ls="eza"
+alias ll="eza -lah"
+alias vim="nvim"
+
 eval "$(starship init zsh)"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
